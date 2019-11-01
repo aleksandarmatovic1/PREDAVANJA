@@ -174,3 +174,80 @@ console.log(s);
 //Zadatak 1.
 
 
+
+//icrtavanje karaktera
+
+//let m=1;
+//let n=12;
+
+//let zvezdice='*'.repeat(m);
+//for(let counter=1; counter<=n;counter++){
+//    console.log(zvezdice);
+//}
+
+// zadatak sa poklopcima
+//let n=12;
+//let poklopac='* '.repeat(n);
+//let srednjiDeo='* '+'  '.repeat(n-2)+'*'
+//console.log(poklopac);
+//for(let counter=1;counter <=n-2;counter++){
+//    console.log(srednjiDeo);
+//}
+//console.log(poklopac);
+
+//izmedju navodnika ide dva razmaka
+
+// zadatak poklopac 8X* i bocne stranice 5*
+
+//-------------------------------------------------
+
+//let n=8;
+//let poklopac='* '.repeat(n);
+//let srednjiDeo='* '+'  '.repeat(n-2)+'*'
+//console.log(poklopac);
+//for(let counter=1;counter <=n-2;counter++){
+//    console.log(srednjiDeo);
+//}
+//console.log(poklopac);
+
+//-----------------------------------------
+
+
+//let n = 10;
+//let str = '';
+//for (let counter = n;counter >= n;counter--) {
+//    str+=counter+' ';
+//    console.log(str);
+//}
+
+//-------------------------------
+
+//zadatak obrnuta piramida od 10 na dole prema 1
+{
+let n=10;
+let str;
+for(let i=n; i>=1;i--){
+    str=' ';
+    for(let j=1;j<=i;j++){
+str+=j+' ';
+    }
+console.log(str);
+}
+}
+//---------------------
+
+var n = 5;
+var output="";
+for (var i = 0; i <n; i++) {
+var myspace = "";   
+for(let s = 0; s <(n-i-1); s++) {
+    myspace += " ";
+}
+    for (var j = 1; j <= 2*i + 1; j++) {
+        output+="*";
+
+    }
+    console.log(myspace+output);
+    output="";
+}
+
